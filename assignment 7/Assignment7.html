@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS 355: Internet and Web Technologies</title>
+    <link href="Assignment7.css" rel="stylesheet" type="text/css">
+    <style>
+.dropbtn {
+  background-color: deeppink;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: lightpink;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: deeppink;}
+</style>
+</head>
+<body style="background-color:white;">
+
+<h1>CSS 355: Internet and Web Technologies</h1>
+<p>By: Amanda Schreck</p>
+
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="http://localhost:63342/pythonProject/Course%20Resources.html?_ijt=ajj8tdjef44kttqc17193n28ss&_ij_reload=RELOAD_ON_SAVE">Course Resources</a>
+    <a href="http://localhost:63342/pythonProject/Browser.html?_ijt=ajj8tdjef44kttqc17193n28ss&_ij_reload=RELOAD_ON_SAVE">Browser</a>
+    <a href="http://localhost:63342/pythonProject/me.html?_ijt=435milc0uadgooepl02h99v6m3&_ij_reload=RELOAD_ON_SAVE">About Me</a>
+  </div>
+</div>
+</head>
+</body>
+</html>
